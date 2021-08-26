@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/webportfoliokr/static/css/main.533143f7.chunk.css",
-    "main.js": "/webportfoliokr/static/js/main.4c1020b6.chunk.js",
-    "main.js.map": "/webportfoliokr/static/js/main.4c1020b6.chunk.js.map",
-    "runtime-main.js": "/webportfoliokr/static/js/runtime-main.ff468d7d.js",
-    "runtime-main.js.map": "/webportfoliokr/static/js/runtime-main.ff468d7d.js.map",
-    "static/js/2.1cce9979.chunk.js": "/webportfoliokr/static/js/2.1cce9979.chunk.js",
-    "static/js/2.1cce9979.chunk.js.map": "/webportfoliokr/static/js/2.1cce9979.chunk.js.map",
-    "static/js/3.e7296163.chunk.js": "/webportfoliokr/static/js/3.e7296163.chunk.js",
-    "static/js/3.e7296163.chunk.js.map": "/webportfoliokr/static/js/3.e7296163.chunk.js.map",
+    "main.css": "/webportfoliokr/static/css/main.d85601ea.chunk.css",
+    "main.js": "/webportfoliokr/static/js/main.c7253ce8.chunk.js",
+    "main.js.map": "/webportfoliokr/static/js/main.c7253ce8.chunk.js.map",
+    "runtime-main.js": "/webportfoliokr/static/js/runtime-main.b60595db.js",
+    "runtime-main.js.map": "/webportfoliokr/static/js/runtime-main.b60595db.js.map",
+    "static/js/2.5f20d523.chunk.js": "/webportfoliokr/static/js/2.5f20d523.chunk.js",
+    "static/js/2.5f20d523.chunk.js.map": "/webportfoliokr/static/js/2.5f20d523.chunk.js.map",
+    "static/js/3.6079fb1f.chunk.js": "/webportfoliokr/static/js/3.6079fb1f.chunk.js",
+    "static/js/3.6079fb1f.chunk.js.map": "/webportfoliokr/static/js/3.6079fb1f.chunk.js.map",
     "index.html": "/webportfoliokr/index.html",
-    "static/css/main.533143f7.chunk.css.map": "/webportfoliokr/static/css/main.533143f7.chunk.css.map",
-    "static/js/2.1cce9979.chunk.js.LICENSE.txt": "/webportfoliokr/static/js/2.1cce9979.chunk.js.LICENSE.txt",
+    "static/css/main.d85601ea.chunk.css.map": "/webportfoliokr/static/css/main.d85601ea.chunk.css.map",
+    "static/js/2.5f20d523.chunk.js.LICENSE.txt": "/webportfoliokr/static/js/2.5f20d523.chunk.js.LICENSE.txt",
+    "static/media/CIRCLES.13ad2f84.jpg": "/webportfoliokr/static/media/CIRCLES.13ad2f84.jpg",
     "static/media/HUFO.f465e48a.png": "/webportfoliokr/static/media/HUFO.f465e48a.png",
     "static/media/Pierrot_ori.8414a8f5.png": "/webportfoliokr/static/media/Pierrot_ori.8414a8f5.png",
     "static/media/SMM.2246ef11.jpg": "/webportfoliokr/static/media/SMM.2246ef11.jpg",
@@ -26,14 +27,16 @@
     "static/media/international.8c13068c.svg": "/webportfoliokr/static/media/international.8c13068c.svg",
     "static/media/intro2kor.b5e38562.mp4": "/webportfoliokr/static/media/intro2kor.b5e38562.mp4",
     "static/media/kirby.03df23e6.png": "/webportfoliokr/static/media/kirby.03df23e6.png",
+    "static/media/lscardnews.4583cacd.png": "/webportfoliokr/static/media/lscardnews.4583cacd.png",
     "static/media/missing.96361186.png": "/webportfoliokr/static/media/missing.96361186.png",
     "static/media/tripofmemory.a7cda29f.png": "/webportfoliokr/static/media/tripofmemory.a7cda29f.png",
+    "static/media/wasteeffect.6c8fda0f.jpg": "/webportfoliokr/static/media/wasteeffect.6c8fda0f.jpg",
     "static/media/whyrano_front.e7978704.jpg": "/webportfoliokr/static/media/whyrano_front.e7978704.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ff468d7d.js",
-    "static/js/2.1cce9979.chunk.js",
-    "static/css/main.533143f7.chunk.css",
-    "static/js/main.4c1020b6.chunk.js"
+    "static/js/runtime-main.b60595db.js",
+    "static/js/2.5f20d523.chunk.js",
+    "static/css/main.d85601ea.chunk.css",
+    "static/js/main.c7253ce8.chunk.js"
   ]
 }
