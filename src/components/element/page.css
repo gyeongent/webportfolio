@@ -22,11 +22,11 @@
   font-style: normal;
 }
 
-a { text-decoration:none }
-a:visited {text-decoration: none;}
-a:link {text-decoration: none;}
-a:active {text-decoration: none;}
-a:hover {text-decoration: none;}
+a { text-decoration:none; color: black }
+a:visited {text-decoration: none; color: black}
+a:link {text-decoration: none; color: black}
+a:active {text-decoration: none; color: black}
+a:hover {text-decoration: none; color: black}
 
 .Default {
   width: 100%;
@@ -55,6 +55,14 @@ a:hover {text-decoration: none;}
   background-size: cover;
   filter: invert(7%);
 
+}
+
+.welcomeDefaultDesc {
+  text-align: center;
+  font-family: 'GmarketSansMedium';
+  font-weight: 400;
+  letter-spacing: -1px;
+  font-size: 15px;
 }
 
 .IDDefault {
@@ -90,6 +98,75 @@ a:hover {text-decoration: none;}
   margin-left: 50px;
 }
 
+.KDefault {
+  width: 100%;
+  height: 100vh;
+  /* border: 1px solid #000; */
+  text-align: center;
+  vertical-align: middle;
+}
+
+.KDefault div {
+  display: inline-block;
+}
+
+.KDefaultText {
+  font-family: 'GmarketSansBold', sans-serif;
+  letter-spacing: -1px;
+  font-size: 30px;
+  padding-top: 100px;
+}
+
+.keywordbox {
+  width: 140px;
+  height: 50px;
+  border: 1px solid #EB1D47;
+  border-radius: 50px;
+  text-align: center;
+  margin: 5px 5px;
+  background-color: rgba(235, 29, 71, 0.05);
+}
+
+.keywordbox p {
+  height: 50px;
+  text-align: center;
+  margin-top: 15.5px;
+  color: #EB1D47;
+  font-family: 'GmarketSansMedium';
+  font-size: 13.5px;
+}
+
+.subkeywordbox {
+  width: 140px;
+  height: 50px;
+  border: 1px solid rgb(90, 90, 90);
+  border-radius: 50px;
+  text-align: center;
+  margin: 5px 5px;
+}
+
+.subkeywordbox p {
+  height: 50px;
+  text-align: center;
+  margin-top: 15.5px;
+  color: rgb(90, 90, 90);
+  font-family: 'GmarketSansMedium';
+  font-size: 13.5px;
+}
+
+.Kdescdiv {
+  margin-top: 50px;
+}
+
+.Kdesc {
+  text-align: center;
+  font-family: 'GmarketSansMedium';
+  font-weight: 400;
+  letter-spacing: -1px;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
 p {
   margin-top: -10px;
 }
@@ -101,7 +178,7 @@ video {
 
 .ContactDefault {
   width: 100%;
-  height: 400px;
+  height: 500px;
   text-align: center;
   vertical-align: middle;
   background-color: rgb(32, 32, 32);
@@ -247,7 +324,7 @@ video {
   text-align: right;
   margin-right: 20px;
   margin-top: -30px;
-  font-family: 'GmarketSansMedium';
+  font-family: 'Montserrat';
 }
 
 .atsignicon {
@@ -276,5 +353,47 @@ video {
 
   .IDDDefaultDesc {
     font-size: 17px;
+  }
+
+  .IDDDefaultText {
+    margin-left: 20px;
+  }
+
+  .IDDDefaultDesc {
+    font-size: 17px;
+    margin-left: 20px;
+    padding-right: 30px;
+  }
+
+  .KDefault {
+    height: auto;
+  }
+
+  .KDefaultText {
+    margin-left: 0px;
+  }
+
+  .Kdesc {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .contacticon {
+    justify-content: space-evenly;
+    display: inline;
+    width: 100%;
+  }
+
+  .contacticon img {
+    width: 50px;
+  }
+
+  .contacticon li {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+  .contacticon li p {
+    font-size: 7px;
   }
 }

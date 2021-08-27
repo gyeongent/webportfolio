@@ -17,76 +17,14 @@ class WelcomeBox extends Component {
             <p className="welcome">
                 {this.props.title}
             </p>
+            <p className="welcomeDefaultDesc">
+                {this.props.warning}
+            </p>
         </div>
       );
     }
 }
 export {WelcomeBox}
-
-class M2B extends Component {
-    render(){
-        return(
-            <div className="B2T">
-                <p>
-                    Bottom
-                </p>
-            </div>
-        );
-    }
-}
-export {M2B}
-
-class Box extends Component {
-    render(){
-      return(
-        <div className="Default">
-            <p className="DefaultText">
-                {this.props.title}
-            </p>
-            <p className="">
-                {this.props.desc}
-            </p>
-        </div>
-      );
-    }
-}
-export {Box}
-
-class ContactBox extends Component {
-    render(){
-      return(
-        <div className="ContactDefault">
-            <p className="ContactText">
-                {this.props.title}
-            </p>
-            
-            <ul className="contacticon">
-                <li>
-                    <img src={discord} width="100px" />
-                    <p> GYEONG#9090 </p>
-                </li>
-                <li>
-                    <img src={instagram} width="80px" />
-                    <p> @lggm_incheon </p>
-                </li>
-                <li>
-                    <img src={instagram} width="80px" />
-                    <p> @gyeong_baw </p>
-                </li>
-                <li>
-                    <img src={facebook} width="80px" />
-                    <p> @gyeongofficialpage </p>
-                </li>
-                <li>
-                    <img className="atsignicon" src={atsign} width="80px" filter="invert(100%)"/>
-                    <p> leegyeongmin@outlook.com </p>
-                </li>
-            </ul>
-        </div>
-      );
-    }
-}
-export {ContactBox}
 
 class IdBox extends Component {
     render(){
@@ -133,6 +71,103 @@ class IDDBox extends Component {
 }
 export {IDDBox}
 
+class ContactBox extends Component {
+    render(){
+      return(
+        <div className="ContactDefault">
+            <p className="ContactText">
+                {this.props.title}
+            </p>
+            
+            <ul className="contacticon">
+                <li>
+                    <img src={discord} width="100px" />
+                    <p> GYEONG#9090 </p>
+                </li>
+                <li>
+                    <img src={instagram} width="80px" />
+                    <p> @lggm_incheon </p>
+                </li>
+                <li>
+                    <img src={instagram} width="80px" />
+                    <p> @gyeong_baw </p>
+                </li>
+                <li>
+                    <img src={facebook} width="80px" />
+                    <p> @gyeongofficialpage </p>
+                </li>
+                <li>
+                    <img className="atsignicon" src={atsign} width="80px" filter="invert(100%)"/>
+                    <p> leegyeongmin@outlook.com </p>
+                </li>
+            </ul>
+        </div>
+      );
+    }
+}
+export {ContactBox}
+
+class Dkeywords extends Component {
+    render(){
+        return(
+            <div className="keywordbox">
+                <p>{this.props.keyword}</p>
+            </div>
+        );
+    }
+}
+
+class Skeywords extends Component {
+    render(){
+        return(
+            <div className="subkeywordbox">
+                <p>{this.props.keyword}</p>
+            </div>
+        );
+    }
+}
+
+class KeywordBox extends Component {
+    render(){
+      return(
+        <div className="KDefault">
+            <p className="KDefaultText">
+                {this.props.title}
+            </p>
+            <div>
+                <Dkeywords keyword="포토샵"/><Skeywords keyword="포스터"/><Skeywords keyword="카드 뉴스"/><Skeywords keyword="실용성"/><Skeywords keyword="2D 그래픽"/>
+            </div>
+            <br />
+            <div>
+                <Dkeywords keyword="3ds Max"/><Skeywords keyword="3D 그래픽"/><Skeywords keyword="모델링"/><Skeywords keyword="사물"/><Skeywords keyword="캐릭터"/><Skeywords keyword="추상적인"/><Skeywords keyword="Vray"/>
+            </div> 
+            <br/>
+            <div>
+                <Dkeywords keyword="일러스트레이터"/><Skeywords keyword="직관적인"/><Skeywords keyword="레이아웃"/><Dkeywords keyword="디자인"/><Skeywords keyword="의미"/> <Skeywords keyword="창의적인"/><Skeywords keyword="생산"/><Skeywords keyword="간단함"/>
+            </div>
+            <br/>
+            <div>
+                <Dkeywords keyword="비주얼 스튜디오 코드"/><Skeywords keyword="웹 사이트"/><Skeywords keyword="개발"/><Skeywords keyword="성장"/><Skeywords keyword="도전"/>
+            </div>
+            <br/>
+            <div>
+                <Dkeywords keyword="애프터 이펙트"/><Skeywords keyword="편집"/><Skeywords keyword="애니메이션"/>
+            </div>
+            <br/>
+            <div className="Kdescdiv">
+                <p className="Kdesc">
+                    {this.props.Kdesc}
+                </p>
+                <p className="Kdesc">
+                    {this.props.Kdesc2}
+                </p>
+            </div>
+        </div>
+      );
+    }
+}
+export {KeywordBox}
+
 class B2T extends Component {
     render(){
         return(
@@ -155,7 +190,7 @@ class Footer extends Component {
                 <img className="Footer_logo" src={gyeong_white} width="70px" />
                 <div className="footerinfo">
                 Seoul Visual Media High School 14th. GyeongMin Lee<br/>
-                Designed by GyeongMin Lee (GYEONG)<br />
+                Designed, Develop by GyeongMin Lee (GYEONG)<br />
                 © 2021. GYEONG All rights reserved.
                 </div>
                 <div className="langsel">
