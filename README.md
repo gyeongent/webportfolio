@@ -1,3 +1,3 @@
 # GYEONG - Web PortFolio
 
-This project was made by Gyeong.
+This project was made by GYEONG.
