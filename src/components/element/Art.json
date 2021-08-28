@@ -1,9 +1,0 @@
-{
-    "Arts" : [
-        {
-            "id": 1,
-            "ArtName": "TestCover",
-            "Image" : ".././images/Arts/testimage.png"
-        }
-    ]
-}

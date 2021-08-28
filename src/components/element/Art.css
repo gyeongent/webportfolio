@@ -23,10 +23,6 @@
   margin-right: auto;
 }
 
-.ArtBox div {
-  margin-top: 15px;
-}
-
 .atitle {
   text-align: left;
   margin-left: 10px;
@@ -99,19 +95,76 @@
   margin-top: -10px;
 }
 
-.more img {
-  transform: rotateZ(90deg);
-
+.Artinfo {
+  margin-top: 20px;
 }
+
+.ModalClick {
+  cursor: pointer;
+  width: 450px;
+  height: 253px;
+  overflow: hidden;
+}
+
+.ModalClick img {
+  width: 450px;
+  height: 253px;
+  transition: 0.3s all;
+}
+
+.ModalClick:hover img {
+  transform: scale(1.15);
+  filter: brightness(130%);
+  overflow: hidden;
+}
+
+.ModalClickS {
+  cursor: pointer;
+  width: 273px;
+  height: 273px;
+  overflow: hidden;
+}
+
+.ModalClickS img {
+  width: 273px;
+  height: 273px;
+  transition: 0.3s all;
+}
+
+.ModalClickS:hover img {
+  transform: scale(1.15);
+  filter: brightness(110%);
+  overflow: hidden;
+}
+
+.ModalClick img:hover .ModalBox {
+  display: block;
+  z-index: 21;
+}
+
 
 .ModalBox {
   width: 80%;
-  height: 60%;
-  border: 1px solid #000;
-  z-index: 20;
-  background-color: white;
-  position:fixed;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
 
+.ModalBoxS {
+  width: 45%;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.ModalBox img {
+  display: block;
+  margin: 0;
+}
+
+.ModalBoxS img {
+  display: block;
+  margin: 0;
 }
 
 @media (max-width:768px) {
