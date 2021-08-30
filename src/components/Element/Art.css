@@ -171,7 +171,7 @@
   }
 
   .ArtContent ul li {
-    margin-bottom: 20px;
+    margin-bottom: 150px;
   }
 
   .ArtBox {
@@ -204,5 +204,23 @@
 
   .ArtContent {
     height: auto;
+  }
+
+  .ModalClick {
+    width: 273px;
+  }
+
+  .ModalBox {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+
+  .ModalBoxS {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    border: none;
   }
 }
