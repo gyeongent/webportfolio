@@ -63,19 +63,19 @@ class ContactBox extends Component {
 
         <ul className="contacticon">
           <li>
-            <img src={discord} width="100px" />
+            <img src={discord} width="100px" alt="Discord 아이콘" />
             <p> GYEONG#9090 </p>
           </li>
           <li>
-            <img src={instagram} width="80px" />
+            <img src={instagram} width="80px" alt="Instagram 아이콘" />
             <p> @lggm_incheon </p>
           </li>
           <li>
-            <img src={instagram} width="80px" />
+            <img src={instagram} width="80px" alt="Instagram 아이콘" />
             <p> @gyeong_baw </p>
           </li>
           <li>
-            <img src={facebook} width="80px" />
+            <img src={facebook} width="80px" alt="E-mail 아이콘" />
             <p> @gyeongofficialpage </p>
           </li>
           <li>
@@ -84,6 +84,7 @@ class ContactBox extends Component {
               src={atsign}
               width="80px"
               filter="invert(100%)"
+              alt="E-mail 아이콘"
             />
             <p> leegyeongmin@outlook.com </p>
           </li>
@@ -177,7 +178,7 @@ class B2T extends Component {
       <div>
         <a href="#">
           <div className="B2T">
-            <img src={arrow_light} width="70px" />
+            <img src={arrow_light} width="70px" alt="Back 2 Top Icon" />
           </div>
         </a>
       </div>
@@ -190,16 +191,26 @@ class Footer extends Component {
   render() {
     return (
       <footer className="Footer">
-        <img className="Footer_logo" src={gyeong_white} width="70px" />
+        <img
+          className="Footer_logo"
+          src={gyeong_white}
+          width="70px"
+          alt="Logo"
+        />
         <div className="footerinfo">
-          Seoul Visual Media High School 14th. GyeongMin Lee
+          Seoul Visual Media High School 14th. Gyeong-Min Lee
           <br />
-          Designed, Develop by GyeongMin Lee (GYEONG)
+          Designed, Develop by Gyeong-Min Lee (GYEONG)
           <br />© 2021. GYEONG All rights reserved.
         </div>
         <div className="langsel">
           <a href="https://gyeongent.github.io/webportfolio">
-            <img className="Flag_KOR" src={flagofworld} width="30px" />
+            <img
+              className="Flag_KOR"
+              src={flagofworld}
+              width="30px"
+              alt="International Flag"
+            />
             English
           </a>
         </div>

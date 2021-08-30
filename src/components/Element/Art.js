@@ -11,6 +11,7 @@ import missing_thumb from "../../images/Arts/missing_thumb.jpg";
 import kirby_thumb from "../../images/Arts/kirby_thumb.jpg";
 import hufo_thumb from "../../images/Arts/part_time_ufo_thumb.jpg";
 import distanceofscent_thumb from "../../images/Arts/distance_of_scent_thumb.jpg";
+import typo from "../../images/Arts/typo_thumb.png";
 
 import testimage from "../../images/Arts/test_image.png";
 import distanceofscent from "../../images/Arts/distance_of_scent.png";
@@ -26,6 +27,7 @@ import circles from "../../images/Arts/circles.jpg";
 import wasteeffect from "../../images/Arts/waste_effect.jpg";
 import fgpolygonart from "../../images/Arts/fallguys_polygonart.png";
 import tretion from "../../images/Arts/tretion_1000.png";
+import tretion_mockup from "../../images/Arts/tretion_mockup.png";
 import detectivepipe from "../../images/Arts/detective_pipe.jpg";
 
 import "./Art.css";
@@ -59,7 +61,12 @@ export function ArtBoxWide(props) {
   return (
     <div className="ArtWide">
       <div className="ModalClick" onClick={handleOpen}>
-        <img src={props.img} width="450px" height="253px;" alt="작품 이미지" />
+        <img
+          src={props.img}
+          width="450px"
+          height="253px;"
+          alt="작품 이미지 불러오기 실패"
+        />
       </div>
       <div className="Artinfo">
         <p className="atitle">제목 : {props.title}</p>
@@ -82,7 +89,7 @@ export function ArtBoxWide(props) {
             <img
               src={props.modalImg}
               width="100%"
-              alt="모달 이미지가 존재하지 않습니다."
+              alt="모달 이미지 불러오기 실패"
             />
           </div>
         </Fade>
@@ -106,7 +113,7 @@ export function ArtBoxDefault(props) {
   return (
     <div className="ArtBox">
       <div className="ModalClickS" onClick={handleOpen}>
-        <img src={props.img} height="100%;" alt="작품 이미지" />
+        <img src={props.img} height="100%;" alt="작품 이미지 불러오기 실패" />
       </div>
       <div className="Artinfo">
         <p className="atitle">제목 : {props.title}</p>
@@ -129,11 +136,29 @@ export function ArtBoxDefault(props) {
             <img
               src={props.modalImg}
               width="100%"
-              alt="모달 이미지가 존재하지 않습니다."
+              alt="모달 이미지 불러오기 실패"
             />
           </div>
         </Fade>
       </Modal>
+    </div>
+  );
+}
+
+export function ArtBoxDefaulturl(props) {
+  return (
+    <div className="ArtBox">
+      <div className="ModalClickS">
+        <a href={props.url} target="_blank" rel="noreferrer">
+          <img src={props.img} height="100%;" alt="작품 이미지 불러오기 실패" />
+        </a>
+      </div>
+      <div className="Artinfo">
+        <p className="atitle">제목 : {props.title}</p>
+        <p className="atitle">프로그램 : {props.program}</p>
+        <p className="atitle">작업기간 : {props.length}</p>
+        <p className="adescp">{props.adesc}</p>
+      </div>
     </div>
   );
 }
@@ -150,7 +175,11 @@ class ArtBoxYoutube extends Component {
     };
     return (
       <div className="ArtVideo">
-        <Youtube className="Youtube_api" videoId={this.props.url} />
+        <Youtube
+          className="Youtube_api"
+          videoId={this.props.url}
+          alt="Youtube API 불러오기 실패"
+        />
         <div>
           <p className="atitle">제목 : {this.props.title}</p>
           <p className="atitle">프로그램 : {this.props.program}</p>
@@ -170,7 +199,7 @@ function Art() {
         <p className="ATitle">2D Design</p>
         <ul>
           <li>
-            <ArtBoxDefault
+            <ArtBoxDefaulturl
               img={lscardnews}
               title={"라이프 세이브스 카드뉴스"}
               program={"포토샵"}
@@ -212,18 +241,19 @@ function Art() {
               adesc={
                 "음계의 최고 음역인 Treble과 차세대 Generation가 결합한 가상 음악 스트리밍 플랫폼 입니다. 실용적이고 간단한 디자인을 주제로 로고 및 데스크탑, 모바일의 앱 UI/UX를 제작하였습니다."
               }
+              modalImg={tretion_mockup}
             />
           </li>
           <li>
             <ArtBoxDefault
-              img={testimage}
-              title={"이상한 웃음"}
-              program={"그림판"}
-              length={"3초"}
+              img={typo}
+              title={"홈런, Fangs 타이포 디자인"}
+              program={"일러스트레이터"}
+              length={"각 타이포당 1일"}
               adesc={
-                "그냥 테스트 이미지 그냥 테스트 이미지 그냥 테스트 이미지 그냥 테스트 이미지 그냥 테스트 이미지"
+                "세븐틴(SEVENTEEN)의 홈런이라는 곡을 듣고 야구장과 야구 배트에 영감을 받아 속도감을 주제로 타이포를 제작하였습니다. 또한 End of the World의 Fangs라는 곡을 듣고 어금니라는 주제로 날카로운 디자인으로 타이포를 제작하였습니다."
               }
-              modalImg={testimage}
+              modalImg={typo}
             />
           </li>
         </ul>
@@ -293,6 +323,18 @@ function Art() {
         </ul>
         <ul>
           <li>
+            <ArtBoxDefault
+              img={wasteeffect}
+              title={"낭비 효과"}
+              program={"3ds Max, 포토샵"}
+              length={"3일"}
+              adesc={
+                "제 27회 커뮤니케이션국제디자인 공모전 입선작 (정해민, 이경민)"
+              }
+              modalImg={wasteeffect}
+            />
+          </li>
+          <li>
             <ArtBoxWide
               img={missing_thumb}
               title={"01. Missing"}
@@ -316,6 +358,8 @@ function Art() {
               modalImg={pierrot}
             />
           </li>
+        </ul>
+        <ul>
           <li>
             <ArtBoxWide
               img={tripofmemory_thumb}
@@ -328,8 +372,6 @@ function Art() {
               modalImg={tripofmemory}
             />
           </li>
-        </ul>
-        <ul>
           <li>
             <ArtBoxWide
               img={detectivepipe}
@@ -340,16 +382,6 @@ function Art() {
                 "디테피는 탐정의 상징인 파이프 담배와 탐정 모자, 돋보기를 참고하여 만든 캐릭터입니다. 생각에 잠기거나 무언가를 알아차렸을 때에는 담배 연기가 뿜어져 나오고 자세히 살펴볼 무언가가 있을 때에는 모자 위에 달려져 있는 돋보기를 이용하여 수사를 합니다."
               }
               modalImg={detectivepipe}
-            />
-          </li>
-          <li>
-            <ArtBoxDefault
-              img={wasteeffect}
-              title={"낭비 효과"}
-              program={"3ds Max, 포토샵"}
-              length={"3일"}
-              adesc={"제 27회 커뮤니케이션국제디자인 공모전 입선작"}
-              modalImg={wasteeffect}
             />
           </li>
         </ul>
@@ -389,8 +421,8 @@ function Art() {
             <ArtBoxYoutube
               title="대한민국(大韓民國)"
               program="포토샵, 애프터 이펙트"
-              length="3일"
-              adesc="2020 불독국제영화제 청소년부 장려상 수상작"
+              length="2주"
+              adesc="2020 불독국제영화제 청소년부 장려상 수상작 (이승미, 오상민, 이경민)"
               url="kcWdlqLfRSY"
             />
           </li>
