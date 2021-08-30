@@ -5,6 +5,13 @@ import Modal from "@material-ui/core/Modal";
 import Backdrop from "@material-ui/core/Backdrop";
 import Fade from "@material-ui/core/Fade";
 
+import pierrot_thumb from "../../images/Arts/pierrot_thumb.jpg";
+import tripofmemory_thumb from "../../images/Arts/trip_of_memory_thumb.jpg";
+import missing_thumb from "../../images/Arts/missing_thumb.jpg";
+import kirby_thumb from "../../images/Arts/kirby_thumb.jpg";
+import hufo_thumb from "../../images/Arts/part_time_ufo_thumb.jpg";
+import distanceofscent_thumb from "../../images/Arts/distance_of_scent_thumb.jpg";
+
 import testimage from "../../images/Arts/test_image.png";
 import distanceofscent from "../../images/Arts/distance_of_scent.png";
 import tripofmemory from "../../images/Arts/trip_of_memory.png";
@@ -19,6 +26,7 @@ import circles from "../../images/Arts/circles.jpg";
 import wasteeffect from "../../images/Arts/waste_effect.jpg";
 import fgpolygonart from "../../images/Arts/fallguys_polygonart.png";
 import tretion from "../../images/Arts/tretion_1000.png";
+import detectivepipe from "../../images/Arts/detective_pipe.jpg";
 
 import "./Art.css";
 
@@ -51,7 +59,7 @@ export function ArtBoxWide(props) {
   return (
     <div className="ArtWide">
       <div className="ModalClick" onClick={handleOpen}>
-        <img src={props.img} width="450px" height="253px;" />
+        <img src={props.img} width="450px" height="253px;" alt="작품 이미지" />
       </div>
       <div className="Artinfo">
         <p className="atitle">제목 : {props.title}</p>
@@ -71,7 +79,11 @@ export function ArtBoxWide(props) {
       >
         <Fade in={open}>
           <div className="ModalBox">
-            <img src={props.modalImg} width="100%" />
+            <img
+              src={props.modalImg}
+              width="100%"
+              alt="모달 이미지가 존재하지 않습니다."
+            />
           </div>
         </Fade>
       </Modal>
@@ -94,7 +106,7 @@ export function ArtBoxDefault(props) {
   return (
     <div className="ArtBox">
       <div className="ModalClickS" onClick={handleOpen}>
-        <img src={props.img} width="450px" height="253px;" />
+        <img src={props.img} height="100%;" alt="작품 이미지" />
       </div>
       <div className="Artinfo">
         <p className="atitle">제목 : {props.title}</p>
@@ -114,7 +126,11 @@ export function ArtBoxDefault(props) {
       >
         <Fade in={open}>
           <div className="ModalBoxS">
-            <img src={props.modalImg} width="100%" />
+            <img
+              src={props.modalImg}
+              width="100%"
+              alt="모달 이미지가 존재하지 않습니다."
+            />
           </div>
         </Fade>
       </Modal>
@@ -159,7 +175,9 @@ function Art() {
               title={"라이프 세이브스 카드뉴스"}
               program={"포토샵"}
               length={"각 작품당 1~3일"}
-              adesc={"정리를 아직 못하였어요"}
+              adesc={
+                "라이프 세이브스는 바쁜 현대인의 삶 속에서, 코로나로 인해 혼란한 삶 속에서 잊혀져 가는 목소리를 대변하기 위해 결성된 “후원 목적 프로젝트 팀”입니다. 그들의 이야기를 담은 카드뉴스와 제품을 제작하여 세상에 알리고, 모은 금액을 기부하여 많은 사람들이 간접적으로나마 도움의 손길을 내밀 수 있도록 기획하였습니다."
+              }
               url={"https://www.instagram.com/life_saves._"}
             />
           </li>
@@ -192,7 +210,7 @@ function Art() {
               program={"일러스트레이터"}
               length={"3주"}
               adesc={
-                "음계의 최고 음역인 Treble과 차세대 Generation가 결합한 가상 음악 스트리밍 플랫폼 입니다."
+                "음계의 최고 음역인 Treble과 차세대 Generation가 결합한 가상 음악 스트리밍 플랫폼 입니다. 실용적이고 간단한 디자인을 주제로 로고 및 데스크탑, 모바일의 앱 UI/UX를 제작하였습니다."
               }
             />
           </li>
@@ -226,7 +244,7 @@ function Art() {
           </li>
           <li>
             <ArtBoxDefault
-              img={kirby}
+              img={kirby_thumb}
               title={"별의 커비"}
               program={"3ds Max, 포토샵"}
               length={"2일"}
@@ -238,7 +256,7 @@ function Art() {
           </li>
           <li>
             <ArtBoxDefault
-              img={hufo}
+              img={hufo_thumb}
               title={"열일하는 UFO"}
               program={"3ds Max, 포토샵"}
               length={"1일"}
@@ -255,11 +273,14 @@ function Art() {
               program={"3ds Max"}
               length={"1일"}
               modalImg={whyrano}
+              adesc={
+                "악당 토끼와 악당 북극곰의 천방지축 와이라노 (Original by Hae-Min Jung / 3D Remaked by Gyeong-Min Lee)"
+              }
             />
           </li>
           <li>
             <ArtBoxDefault
-              img={distanceofscent}
+              img={distanceofscent_thumb}
               title={"향기의 거리"}
               program={"3ds Max"}
               length={"1일"}
@@ -273,7 +294,7 @@ function Art() {
         <ul>
           <li>
             <ArtBoxWide
-              img={missing}
+              img={missing_thumb}
               title={"01. Missing"}
               program={"3ds Max, 포토샵"}
               length={"2일"}
@@ -285,19 +306,19 @@ function Art() {
           </li>
           <li>
             <ArtBoxWide
-              img={pierrot}
+              img={pierrot_thumb}
               title={"02. Pierrot"}
               program={"3ds Max, 포토샵"}
               length={"4일"}
               adesc={
-                "음악을 듣고 떠오르는 장면을 만든 시리즈 두번째 작품 입니다. 나는 삐에로, 어떤 숲속에서 펼쳐지는 환상의 무대, 위험할지도 모르지만 열심히 해보려한다."
+                "음악을 듣고 떠오르는 장면을 만든 시리즈 두번째 작품 입니다. 나는 삐에로, 어떤 숲속에서 펼쳐지는 환상의 무대, 위험할지도 모르지만 열심히 해보려한다 / 미니어처 컨셉으로 제작한 3D 그래픽 작품, 서커스의 아기자기함과 환상의 느낌을 미니어처의 느낌과 자주색 계열의 조명으로 표현하였습니다."
               }
               modalImg={pierrot}
             />
           </li>
           <li>
             <ArtBoxWide
-              img={tripofmemory}
+              img={tripofmemory_thumb}
               title={"trip of memory"}
               program={"3ds Max"}
               length={"2일"}
@@ -310,12 +331,25 @@ function Art() {
         </ul>
         <ul>
           <li>
+            <ArtBoxWide
+              img={detectivepipe}
+              title={"디테피(Detective Pipe)"}
+              program={"3ds Max, 포토샵, Substacne Painter"}
+              length={"2일"}
+              adesc={
+                "디테피는 탐정의 상징인 파이프 담배와 탐정 모자, 돋보기를 참고하여 만든 캐릭터입니다. 생각에 잠기거나 무언가를 알아차렸을 때에는 담배 연기가 뿜어져 나오고 자세히 살펴볼 무언가가 있을 때에는 모자 위에 달려져 있는 돋보기를 이용하여 수사를 합니다."
+              }
+              modalImg={detectivepipe}
+            />
+          </li>
+          <li>
             <ArtBoxDefault
               img={wasteeffect}
               title={"낭비 효과"}
               program={"3ds Max, 포토샵"}
               length={"3일"}
               adesc={"제 27회 커뮤니케이션국제디자인 공모전 입선작"}
+              modalImg={wasteeffect}
             />
           </li>
         </ul>
@@ -347,6 +381,17 @@ function Art() {
               length="3일"
               adesc="도서출판 밝은세상 '마음을 읽는 아이 오로르' 북트레일러 제작"
               url="uALk95g4qLQ"
+            />
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <ArtBoxYoutube
+              title="대한민국(大韓民國)"
+              program="포토샵, 애프터 이펙트"
+              length="3일"
+              adesc="2020 불독국제영화제 청소년부 장려상 수상작"
+              url="kcWdlqLfRSY"
             />
           </li>
         </ul>
