@@ -13,7 +13,7 @@ import hufo_thumb from "../../images/Arts/part_time_ufo_thumb.jpg";
 import distanceofscent_thumb from "../../images/Arts/distance_of_scent_thumb.jpg";
 import typo from "../../images/Arts/typo_thumb.png";
 
-import testimage from "../../images/Arts/test_image.png";
+// import testimage from "../../images/Arts/test_image.png";
 import distanceofscent from "../../images/Arts/distance_of_scent.png";
 import tripofmemory from "../../images/Arts/trip_of_memory.png";
 import whyrano from "../../images/Arts/whyrano_front.jpg";
@@ -165,14 +165,6 @@ export function ArtBoxDefaulturl(props) {
 
 class ArtBoxYoutube extends Component {
   render() {
-    const opts = {
-      height: "390",
-      width: "640",
-      playerVars: {
-        // https://developers.google.com/youtube/player_parameters
-        autoplay: 1,
-      },
-    };
     return (
       <div className="ArtVideo">
         <Youtube

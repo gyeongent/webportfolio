@@ -10,6 +10,8 @@ import facebook from "../../images/facebook.svg";
 import atsign from "../../images/atsign.svg";
 import introvideokor from "../../videos/intro2kor.mp4";
 
+const warp = "#";
+
 class WelcomeBox extends Component {
   render() {
     return (
@@ -176,7 +178,7 @@ class B2T extends Component {
   render() {
     return (
       <div>
-        <a href="#">
+        <a href={warp}>
           <div className="B2T">
             <img src={arrow_light} width="70px" alt="Back 2 Top Icon" />
           </div>
