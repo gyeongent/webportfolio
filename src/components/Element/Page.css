@@ -90,13 +90,14 @@ a:hover {
 
 .IDDDefault {
   width: 100%;
-  height: 100vh;
+  height: 110vh;
+  padding-top: 10vh;
   text-align: center;
   vertical-align: middle;
 }
 
 .IDDDefaultText {
-  text-align: left;
+  text-align: center;
   font-family: "GmarketSansBold", sans-serif;
   font-weight: 900;
   letter-spacing: -1px;
@@ -106,11 +107,11 @@ a:hover {
 }
 
 .IDDDefaultDesc {
-  text-align: left;
+  text-align: center;
   font-family: "GmarketSansMedium", sans-serif;
   font-weight: 400;
   letter-spacing: -1.7px;
-  font-size: 23px;
+  font-size: 20px;
   margin-left: 50px;
 }
 
@@ -370,10 +371,12 @@ video {
 
   .IDDDefaultDesc {
     font-size: 17px;
+    text-align: left;
   }
 
   .IDDDefaultText {
     margin-left: 20px;
+    text-align: left;
   }
 
   .IDDDefaultDesc {
@@ -393,6 +396,7 @@ video {
   .Kdesc {
     padding-right: 30px;
     padding-left: 30px;
+    text-align: left;
   }
 
   .contacticon {
