@@ -198,7 +198,7 @@ video {
   height: 500px;
   text-align: center;
   vertical-align: middle;
-  background-color: rgb(32, 32, 32);
+  background-color: rgb(245, 245, 245);
   padding-bottom: 100px;
 }
 
@@ -208,7 +208,7 @@ video {
   letter-spacing: -1px;
   font-size: 30px;
   padding-top: 30px;
-  color: white;
+  color: black;
 }
 
 .welcome {
@@ -283,7 +283,7 @@ video {
 }
 
 .contacticon li p {
-  color: white;
+  color: balck;
   font-family: "Montserrat";
   font-weight: 200;
   font-size: 13px;
@@ -346,10 +346,6 @@ video {
   margin-right: 20px;
   margin-top: -30px;
   font-family: "Montserrat";
-}
-
-.atsignicon {
-  filter: invert(100%);
 }
 
 @media (max-width: 768px) {
