@@ -35,7 +35,7 @@ class App extends Component {
           <KeywordBox
             title="주요 키워드"
             Kdesc="작품을 제작하면서 제가 추구하는 방향이나, 생각 등을 키워드로 정리하였습니다."
-            Kdesc2="붉은 키워드는 프로그램이나 키워드의 큰 묶음으로 표시하였습니다."
+            Kdesc2="붉은 키워드는 프로그램이나 범주의 큰 묶음으로 표시하였습니다."
           />
           <Art />
           <ContactBox title="Contact here" />

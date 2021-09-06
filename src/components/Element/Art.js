@@ -12,6 +12,8 @@ import kirby_thumb from "../../images/Arts/kirby_thumb.jpg";
 import hufo_thumb from "../../images/Arts/part_time_ufo_thumb.jpg";
 import distanceofscent_thumb from "../../images/Arts/distance_of_scent_thumb.jpg";
 import typo from "../../images/Arts/typo_thumb.png";
+import ex_facebook from "../../images/Arts/EX_Facebook.png";
+import color_palette_thumb from "../../images/Arts/color_palette_thumb.png";
 
 // import testimage from "../../images/Arts/test_image.png";
 import distanceofscent from "../../images/Arts/distance_of_scent.png";
@@ -29,6 +31,8 @@ import fgpolygonart from "../../images/Arts/fallguys_polygonart.png";
 import tretion from "../../images/Arts/tretion_1000.png";
 import tretion_mockup from "../../images/Arts/tretion_mockup.png";
 import detectivepipe from "../../images/Arts/detective_pipe.jpg";
+import ex_mockup from "../../images/Arts/EX_Mockup.png";
+import color_palette from "../../images/Arts/color_palette.png";
 
 import "./Art.css";
 
@@ -239,13 +243,39 @@ function Art() {
           <li>
             <ArtBoxDefault
               img={typo}
-              title={"홈런, Fangs 타이포 디자인"}
+              title={"레터링 디자인"}
               program={"일러스트레이터"}
-              length={"각 타이포당 1일"}
+              length={"각 레터링당 1일"}
               adesc={
                 "세븐틴(SEVENTEEN)의 홈런이라는 곡을 듣고 야구장과 야구 배트에 영감을 받아 속도감을 주제로 타이포를 제작하였습니다. 또한 End of the World의 Fangs라는 곡을 듣고 어금니라는 주제로 날카로운 디자인으로 타이포를 제작하였습니다."
               }
               modalImg={typo}
+            />
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <ArtBoxWide
+              img={ex_facebook}
+              title={"익스트루드 채널아트"}
+              program={"3ds Max, 포토샵"}
+              length={"3일"}
+              adesc={
+                "2020년 서울영상고등학교의 3D 및 2D 동아리인 '익스트루드'의 프로필과 채널아트를 제작하였습니다. 익스트루드를 대표하는 캐릭터인 '에덱스'를 주제로 잡아 선을 따, 친근함을 돋보이게 표현하였고 붉은 자주색과 주황색을 메인 컬러로 선정해 '활발함'을 표현하였습니다."
+              }
+              modalImg={ex_mockup}
+            />
+          </li>
+          <li>
+            <ArtBoxWide
+              img={color_palette_thumb}
+              title={"컬러 팔레트"}
+              program={"포토샵"}
+              length={"1주"}
+              adesc={
+                "여름의 시원함과 활기참을 형광빛이 도는 초록색으로 표현하여 느낌을 부각시켰으며, 활기찬 녹색(Activity Green)이라는 네이밍을 하였습니다."
+              }
+              modalImg={color_palette}
             />
           </li>
         </ul>

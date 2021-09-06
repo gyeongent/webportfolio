@@ -141,11 +141,11 @@ class KeywordBox extends Component {
         </div>
         <br />
         <div>
-          <Dkeywords keyword="일러스트레이터" />
-          <Skeywords keyword="직관적인" />
-          <Skeywords keyword="레이아웃" />
           <Dkeywords keyword="디자인" />
-          <Skeywords keyword="의미" /> <Skeywords keyword="창의적인" />
+          <Skeywords keyword="편집디자인" />
+          <Skeywords keyword="제품디자인" />
+          <Skeywords keyword="의미" />
+          <Skeywords keyword="창의적인" />
           <Skeywords keyword="생산" />
           <Skeywords keyword="간단함" />
         </div>
@@ -162,6 +162,9 @@ class KeywordBox extends Component {
           <Dkeywords keyword="애프터 이펙트" />
           <Skeywords keyword="편집" />
           <Skeywords keyword="애니메이션" />
+          <Dkeywords keyword="일러스트레이터" />
+          <Skeywords keyword="직관적인" />
+          <Skeywords keyword="레이아웃" />
         </div>
         <br />
         <div className="Kdescdiv">
