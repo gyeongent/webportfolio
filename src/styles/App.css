@@ -21,6 +21,10 @@ a:hover {
   color: black;
 }
 
+.App {
+  height: 9900px;
+}
+
 .Default {
   width: 100%;
   height: 100vh;
@@ -57,6 +61,10 @@ a:hover {
   font-size: 15px;
 }
 
+.ResumeDefault {
+  text-align: center;
+}
+
 .IDDefault {
   width: 100%;
   height: auto;
@@ -79,7 +87,6 @@ a:hover {
   letter-spacing: -1px;
   font-size: 30px;
   padding-top: 127px;
-  margin-left: 50px;
 }
 
 .IDDDefaultDesc {
@@ -88,7 +95,6 @@ a:hover {
   font-weight: 400;
   letter-spacing: -1.7px;
   font-size: 20px;
-  margin-left: 50px;
 }
 
 .KDefault {
@@ -272,6 +278,7 @@ video {
   bottom: 0;
   width: 100%;
   height: 100px;
+  text-align: center;
 }
 
 .B2T img {
@@ -392,5 +399,9 @@ video {
 
   .contacticon li p {
     font-size: 7px;
+  }
+
+  .ResumeDefault img {
+    width: 90%;
   }
 }

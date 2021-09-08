@@ -11,8 +11,8 @@ export const welcomeen = [
 ];
 
 export const identitykr = [
-  "저는",
-  "'GYEONG'이라는 닉네임은 공경함을 뜻하는 '경(敬)'의 이름을 따서 지었습니다.",
+  "Brand. GYEONG",
+  "'GYEONG'이라는 브랜딩과 닉네임은 저의 이름중 공경함을 뜻하는 '경(敬)'을 따서 지었습니다.",
   "로고는 'GYEONG'의 앞뒤 글자인 두 개의 G를 형상화 하여 제작했으며,",
   "로고의 자세한 의미는 아래 섹션에서 확인하실 수 있습니다.",
   "디자인에 공감을 더하다.",
@@ -21,7 +21,7 @@ export const identitykr = [
 ];
 
 export const identityen = [
-  "I am",
+  "Brand. GYEONG",
   "The nickname 'GYEONG' was born after my name, '경(敬)' which means respect.",
   "The logo has two Gs, the front and back letters in 'GYEONG'.",
   "The nickname is embodied and can be found in the section below.",
