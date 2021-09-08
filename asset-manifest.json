@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/webportfoliokr/static/css/main.d87386a3.chunk.css",
-    "main.js": "/webportfoliokr/static/js/main.c4478875.chunk.js",
-    "main.js.map": "/webportfoliokr/static/js/main.c4478875.chunk.js.map",
-    "runtime-main.js": "/webportfoliokr/static/js/runtime-main.a61b9063.js",
-    "runtime-main.js.map": "/webportfoliokr/static/js/runtime-main.a61b9063.js.map",
-    "static/js/2.162542b1.chunk.js": "/webportfoliokr/static/js/2.162542b1.chunk.js",
-    "static/js/2.162542b1.chunk.js.map": "/webportfoliokr/static/js/2.162542b1.chunk.js.map",
+    "main.css": "/webportfoliokr/static/css/main.088ae900.chunk.css",
+    "main.js": "/webportfoliokr/static/js/main.db133abf.chunk.js",
+    "main.js.map": "/webportfoliokr/static/js/main.db133abf.chunk.js.map",
+    "runtime-main.js": "/webportfoliokr/static/js/runtime-main.f791e614.js",
+    "runtime-main.js.map": "/webportfoliokr/static/js/runtime-main.f791e614.js.map",
+    "static/js/2.4d661bad.chunk.js": "/webportfoliokr/static/js/2.4d661bad.chunk.js",
+    "static/js/2.4d661bad.chunk.js.map": "/webportfoliokr/static/js/2.4d661bad.chunk.js.map",
     "index.html": "/webportfoliokr/index.html",
-    "static/css/main.d87386a3.chunk.css.map": "/webportfoliokr/static/css/main.d87386a3.chunk.css.map",
-    "static/js/2.162542b1.chunk.js.LICENSE.txt": "/webportfoliokr/static/js/2.162542b1.chunk.js.LICENSE.txt",
+    "static/css/main.088ae900.chunk.css.map": "/webportfoliokr/static/css/main.088ae900.chunk.css.map",
+    "static/js/2.4d661bad.chunk.js.LICENSE.txt": "/webportfoliokr/static/js/2.4d661bad.chunk.js.LICENSE.txt",
     "static/media/EX_Facebook.d10c4095.png": "/webportfoliokr/static/media/EX_Facebook.d10c4095.png",
     "static/media/EX_Mockup.cbb2cec9.png": "/webportfoliokr/static/media/EX_Mockup.cbb2cec9.png",
     "static/media/arrow_light.7e6503c6.svg": "/webportfoliokr/static/media/arrow_light.7e6503c6.svg",
     "static/media/atsign.fa672e6b.svg": "/webportfoliokr/static/media/atsign.fa672e6b.svg",
-    "static/media/Page.css": "/webportfoliokr/static/media/bg.c67879e3.png",
+    "static/media/App.css": "/webportfoliokr/static/media/bg.c67879e3.png",
     "static/media/circles.13ad2f84.jpg": "/webportfoliokr/static/media/circles.13ad2f84.jpg",
     "static/media/color_palette.005100f6.png": "/webportfoliokr/static/media/color_palette.005100f6.png",
     "static/media/color_palette_thumb.114521ed.png": "/webportfoliokr/static/media/color_palette_thumb.114521ed.png",
@@ -24,9 +24,11 @@
     "static/media/distance_of_scent_thumb.1806c41b.jpg": "/webportfoliokr/static/media/distance_of_scent_thumb.1806c41b.jpg",
     "static/media/facebook.4178d148.svg": "/webportfoliokr/static/media/facebook.4178d148.svg",
     "static/media/fallguys_polygonart.b5a9d95b.png": "/webportfoliokr/static/media/fallguys_polygonart.b5a9d95b.png",
+    "static/media/flag_of_south_korea.9801985e.svg": "/webportfoliokr/static/media/flag_of_south_korea.9801985e.svg",
     "static/media/gyeong_white.b43e9fb1.svg": "/webportfoliokr/static/media/gyeong_white.b43e9fb1.svg",
     "static/media/instagram.7478cbb0.svg": "/webportfoliokr/static/media/instagram.7478cbb0.svg",
     "static/media/international.85c9bef7.svg": "/webportfoliokr/static/media/international.85c9bef7.svg",
+    "static/media/intro2.0019ee49.mp4": "/webportfoliokr/static/media/intro2.0019ee49.mp4",
     "static/media/intro2kor.b5e38562.mp4": "/webportfoliokr/static/media/intro2kor.b5e38562.mp4",
     "static/media/kirby.03df23e6.png": "/webportfoliokr/static/media/kirby.03df23e6.png",
     "static/media/kirby_thumb.81b46b7c.jpg": "/webportfoliokr/static/media/kirby_thumb.81b46b7c.jpg",
@@ -48,9 +50,9 @@
     "static/media/whyrano_front.e7978704.jpg": "/webportfoliokr/static/media/whyrano_front.e7978704.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a61b9063.js",
-    "static/js/2.162542b1.chunk.js",
-    "static/css/main.d87386a3.chunk.css",
-    "static/js/main.c4478875.chunk.js"
+    "static/js/runtime-main.f791e614.js",
+    "static/js/2.4d661bad.chunk.js",
+    "static/css/main.088ae900.chunk.css",
+    "static/js/main.db133abf.chunk.js"
   ]
 }
