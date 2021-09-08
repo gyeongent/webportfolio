@@ -1,7 +1,7 @@
 {
   "homepage": "https://gyeongent.github.io/webportfoliokr/",
-  "name": "GYEONG",
-  "version": "0.1.0",
+  "name": "gyeong",
+  "version": "202109081",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
