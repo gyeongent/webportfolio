@@ -7,10 +7,14 @@ import SmoothScroll from "hooks/SmoothScroll.js";
 import {
   welcomekr,
   welcomeen,
+  iamkr,
+  iamen,
   identitykr,
   identityen,
   keywordkr,
   keyworden,
+  subkeywordkr,
+  subkeyworden,
   contact,
 } from "Data.js";
 
@@ -54,7 +58,7 @@ const App = () => {
           <br />© 2021. GYEONG All rights reserved.
         </div>
         <div className="langsel">
-          {lang == "kr" ? (
+          {lang === "kr" ? (
             <div
               onClick={() => {
                 setLang("en");
@@ -90,9 +94,9 @@ const App = () => {
   const Welcome = () => {
     return (
       <div id="main" className="WelcomeDefault">
-        <p className="welcome">{lang == "kr" ? welcomekr[0] : welcomeen[0]}</p>
+        <p className="welcome">{lang === "kr" ? welcomekr[0] : welcomeen[0]}</p>
         <p className="welcomeDefaultDesc">
-          {lang == "kr" ? welcomekr[1] : welcomeen[1]}
+          {lang === "kr" ? welcomekr[1] : welcomeen[1]}
         </p>
       </div>
     );
@@ -100,7 +104,7 @@ const App = () => {
   const Resume = () => {
     return (
       <div className="ResumeDefault">
-        <p className="IDDDefaultText">저는</p>
+        <p className="IDDDefaultText">{lang === "kr" ? iamkr[0] : iamen[0]}</p>
         <br />
         <img src={resume} width="40%" alt="이력서" />
       </div>
@@ -110,25 +114,25 @@ const App = () => {
     return (
       <div className="IDDDefault">
         <p className="IDDDefaultText">
-          {lang == "kr" ? identitykr[0] : identityen[0]}
+          {lang === "kr" ? identitykr[0] : identityen[0]}
         </p>
         <p className="IDDDefaultDesc">
-          {lang == "kr" ? identitykr[1] : identityen[1]}
+          {lang === "kr" ? identitykr[1] : identityen[1]}
         </p>
         <p className="IDDDefaultDesc">
-          {lang == "kr" ? identitykr[2] : identityen[2]}
+          {lang === "kr" ? identitykr[2] : identityen[2]}
         </p>
         <p className="IDDDefaultDesc">
-          {lang == "kr" ? identitykr[3] : identityen[3]}
+          {lang === "kr" ? identitykr[3] : identityen[3]}
         </p>
         <p className="IDDDefaultText">
-          {lang == "kr" ? identitykr[4] : identityen[4]}
+          {lang === "kr" ? identitykr[4] : identityen[4]}
         </p>
         <p className="IDDDefaultDesc">
-          {lang == "kr" ? identitykr[5] : identityen[5]}
+          {lang === "kr" ? identitykr[5] : identityen[5]}
         </p>
         <p className="IDDDefaultDesc">
-          {lang == "kr" ? identitykr[6] : identityen[6]}
+          {lang === "kr" ? identitykr[6] : identityen[6]}
         </p>
       </div>
     );
@@ -138,7 +142,7 @@ const App = () => {
       <div className="IDDefault">
         <video loop autoPlay muted>
           <source
-            src={lang == "kr" ? intro_video_kr : intro_video_en}
+            src={lang === "kr" ? intro_video_kr : intro_video_en}
             type="video/mp4"
           />
           현재 실행중인 브라우저에서는 비디오 태그가 지원되지 않습니다.
@@ -165,56 +169,56 @@ const App = () => {
     return (
       <div className="KDefault">
         <p className="KDefaultText">
-          {lang == "kr" ? keywordkr[0] : keyworden[0]}
+          {lang === "kr" ? keywordkr[0] : keyworden[0]}
         </p>
         <div>
-          <D keyword="포토샵" />
-          <S keyword="포스터" />
-          <S keyword="카드 뉴스" />
-          <S keyword="실용성" />
-          <S keyword="2D 그래픽" />
+          <D keyword={lang === "kr" ? subkeywordkr[0] : subkeyworden[0]} />
+          <S keyword={lang === "kr" ? subkeywordkr[1] : subkeyworden[1]} />
+          <S keyword={lang === "kr" ? subkeywordkr[2] : subkeyworden[2]} />
+          <S keyword={lang === "kr" ? subkeywordkr[3] : subkeyworden[3]} />
+          <S keyword={lang === "kr" ? subkeywordkr[4] : subkeyworden[4]} />
         </div>
         <br />
         <div>
-          <D keyword="3ds Max" />
-          <S keyword="3D 그래픽" />
-          <S keyword="모델링" />
-          <S keyword="사물" />
-          <S keyword="캐릭터" />
-          <S keyword="추상적인" />
-          <S keyword="Vray" />
+          <D keyword={lang === "kr" ? subkeywordkr[5] : subkeyworden[5]} />
+          <S keyword={lang === "kr" ? subkeywordkr[6] : subkeyworden[6]} />
+          <S keyword={lang === "kr" ? subkeywordkr[7] : subkeyworden[7]} />
+          <S keyword={lang === "kr" ? subkeywordkr[8] : subkeyworden[8]} />
+          <S keyword={lang === "kr" ? subkeywordkr[9] : subkeyworden[9]} />
+          <S keyword={lang === "kr" ? subkeywordkr[10] : subkeyworden[10]} />
+          <S keyword={lang === "kr" ? subkeywordkr[11] : subkeyworden[11]} />
         </div>
         <br />
         <div>
-          <D keyword="디자인" />
-          <S keyword="편집디자인" />
-          <S keyword="제품디자인" />
-          <S keyword="의미" />
-          <S keyword="창의적인" />
-          <S keyword="생산" />
-          <S keyword="간단함" />
+          <D keyword={lang === "kr" ? subkeywordkr[12] : subkeyworden[12]} />
+          <S keyword={lang === "kr" ? subkeywordkr[13] : subkeyworden[13]} />
+          <S keyword={lang === "kr" ? subkeywordkr[14] : subkeyworden[14]} />
+          <S keyword={lang === "kr" ? subkeywordkr[15] : subkeyworden[15]} />
+          <S keyword={lang === "kr" ? subkeywordkr[16] : subkeyworden[16]} />
+          <S keyword={lang === "kr" ? subkeywordkr[17] : subkeyworden[17]} />
+          <S keyword={lang === "kr" ? subkeywordkr[18] : subkeyworden[18]} />
         </div>
         <br />
         <div>
-          <D keyword="비주얼 스튜디오 코드" />
-          <S keyword="웹 사이트" />
-          <S keyword="개발" />
-          <S keyword="성장" />
-          <S keyword="도전" />
+          <D keyword={lang === "kr" ? subkeywordkr[19] : subkeyworden[19]} />
+          <S keyword={lang === "kr" ? subkeywordkr[20] : subkeyworden[20]} />
+          <S keyword={lang === "kr" ? subkeywordkr[21] : subkeyworden[21]} />
+          <S keyword={lang === "kr" ? subkeywordkr[22] : subkeyworden[22]} />
+          <S keyword={lang === "kr" ? subkeywordkr[23] : subkeyworden[23]} />
         </div>
         <br />
         <div>
-          <D keyword="애프터 이펙트" />
-          <S keyword="편집" />
-          <S keyword="애니메이션" />
-          <D keyword="일러스트레이터" />
-          <S keyword="직관적인" />
-          <S keyword="레이아웃" />
+          <D keyword={lang === "kr" ? subkeywordkr[24] : subkeyworden[24]} />
+          <S keyword={lang === "kr" ? subkeywordkr[25] : subkeyworden[25]} />
+          <S keyword={lang === "kr" ? subkeywordkr[26] : subkeyworden[26]} />
+          <D keyword={lang === "kr" ? subkeywordkr[27] : subkeyworden[27]} />
+          <S keyword={lang === "kr" ? subkeywordkr[28] : subkeyworden[28]} />
+          <S keyword={lang === "kr" ? subkeywordkr[29] : subkeyworden[29]} />
         </div>
         <br />
         <div className="Kdescdiv">
-          <p className="Kdesc">{lang == "kr" ? keywordkr[1] : keyworden[1]}</p>
-          <p className="Kdesc">{lang == "kr" ? keywordkr[2] : keyworden[2]}</p>
+          <p className="Kdesc">{lang === "kr" ? keywordkr[1] : keyworden[1]}</p>
+          <p className="Kdesc">{lang === "kr" ? keywordkr[2] : keyworden[2]}</p>
         </div>
       </div>
     );
