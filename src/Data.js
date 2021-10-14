@@ -99,7 +99,7 @@ export const subkeyworden = [
   "Creative",
   "Produce",
   "Simple",
-  "VSC",
+  "VSCode",
   "Web Site",
   "Develope",
   "Growth",
