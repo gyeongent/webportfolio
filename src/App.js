@@ -54,8 +54,8 @@ const App = () => {
         <div className="footerinfo">
           Seoul Visual Media High School 14th. Gyeong-Min Lee
           <br />
-          Designed, Develop by Gyeong-Min Lee (GYEONG)
-          <br />© 2021. GYEONG All rights reserved.
+          Designed, Developed by Gyeong-Min Lee (GYEONG)
+          <br />© 2016-2021. GYEONG All rights reserved.
         </div>
         <div className="langsel">
           {lang === "kr" ? (
