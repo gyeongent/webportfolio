@@ -32,6 +32,7 @@ import tretion_mockup from "images/Arts/tretion_mockup.png";
 import detectivepipe from "images/Arts/detective_pipe.jpg";
 import ex_mockup from "images/Arts/EX_Mockup.png";
 import color_palette from "images/Arts/color_palette.png";
+import honey_moon from "images/Arts/honey_moon.png";
 
 import "styles/Art.css";
 
@@ -401,6 +402,18 @@ function Art() {
                 "디테피는 탐정의 상징인 파이프 담배와 탐정 모자, 돋보기를 참고하여 만든 캐릭터입니다. 생각에 잠기거나 무언가를 알아차렸을 때에는 담배 연기가 뿜어져 나오고 자세히 살펴볼 무언가가 있을 때에는 모자 위에 달려져 있는 돋보기를 이용하여 수사를 합니다."
               }
               modalImg={detectivepipe}
+            />
+          </li>
+          <li>
+            <ArtBoxDefault
+              img={honey_moon}
+              title={"03. Honey Moon"}
+              program={"3ds Max, 포토샵"}
+              length={"3시간"}
+              modalImg={honey_moon}
+              adesc={
+                "02. CIRCUS: Pierrot의 연장선 작품, 힘들고 괴로웠던 모든 것이 끝난뒤 환상적인 현상을 보게 될 것이다."
+              }
             />
           </li>
         </ul>

@@ -238,7 +238,7 @@ const App = () => {
           </li>
           <li>
             <img src={instagram} width="80px" alt="Instagram 아이콘" />
-            <p> @gyeong_baw </p>
+            <p> @gyeong_studio </p>
           </li>
           <li>
             <img src={facebook} width="80px" alt="E-mail 아이콘" />
