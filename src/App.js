@@ -229,20 +229,8 @@ const App = () => {
         <p className="ContactText">{contact[0]}</p>
         <ul className="contacticon">
           <li>
-            <img src={discord} width="100px" alt="Discord 아이콘" />
-            <p> GYEONG#9090 </p>
-          </li>
-          <li>
-            <img src={instagram} width="80px" alt="Instagram 아이콘" />
-            <p> @lggm_incheon </p>
-          </li>
-          <li>
             <img src={instagram} width="80px" alt="Instagram 아이콘" />
             <p> @gyeong_studio </p>
-          </li>
-          <li>
-            <img src={facebook} width="80px" alt="E-mail 아이콘" />
-            <p> @gyeongofficialpage </p>
           </li>
           <li>
             <img
@@ -253,6 +241,16 @@ const App = () => {
               alt="E-mail 아이콘"
             />
             <p> leegyeongmin@outlook.com </p>
+          </li>
+          <li>
+            <img
+              className="atsignicon"
+              src={atsign}
+              width="80px"
+              filter="invert(100%)"
+              alt="E-mail 아이콘"
+            />
+            <p> gyeongmin@imjfoundation.com </p>
           </li>
         </ul>
       </div>
@@ -280,7 +278,6 @@ const App = () => {
       <Footer />
       <SmoothScroll>
         <Welcome />
-        <Resume />
         <IDD />
         <Id />
         <Keywords />
