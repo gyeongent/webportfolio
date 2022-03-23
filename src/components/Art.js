@@ -33,6 +33,7 @@ import detectivepipe from "images/Arts/detective_pipe.jpg";
 import ex_mockup from "images/Arts/EX_Mockup.png";
 import color_palette from "images/Arts/color_palette.png";
 import honey_moon from "images/Arts/honey_moon.png";
+import lose from "images/Arts/10092.png";
 
 import "styles/Art.css";
 
@@ -413,6 +414,18 @@ function Art() {
               modalImg={honey_moon}
               adesc={
                 "02. CIRCUS: Pierrot의 연장선 작품, 힘들고 괴로웠던 모든 것이 끝난뒤 환상적인 현상을 보게 될 것이다."
+              }
+            />
+          </li>
+          <li>
+            <ArtBoxDefault
+              img={lose}
+              title={"10092"}
+              program={"3ds Max"}
+              length={"1시간"}
+              modalImg={lose}
+              adesc={
+                "전의상실."
               }
             />
           </li>
