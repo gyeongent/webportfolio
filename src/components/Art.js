@@ -34,6 +34,8 @@ import ex_mockup from "images/Arts/EX_Mockup.png";
 import color_palette from "images/Arts/color_palette.png";
 import honey_moon from "images/Arts/honey_moon.png";
 import lose from "images/Arts/10092.png";
+import contradict from "images/Arts/contradict.png";
+
 
 import "styles/Art.css";
 
@@ -427,6 +429,20 @@ function Art() {
               adesc={
                 "전의상실."
               }
+            />
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <ArtBoxWide
+              img={contradict}
+              title={"모순(contradict)"}
+              program={"3ds Max, 포토샵, Substance Painter"}
+              length={"3일"}
+              adesc={
+                "우리는 평화로운 세상에 태어나 평화롭지만 평화롭지만은 않은 세상에 살면서 점점 무뎌진다. 이 평화로운 세상은 평화롭지 않은 세상을 갈망하고 있는 걸까?"
+              }
+              modalImg={contradict}
             />
           </li>
         </ul>
