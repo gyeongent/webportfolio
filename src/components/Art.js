@@ -35,6 +35,7 @@ import color_palette from "images/Arts/color_palette.png";
 import honey_moon from "images/Arts/honey_moon.png";
 import lose from "images/Arts/10092.png";
 import contradict from "images/Arts/contradict.png";
+import whyrano2 from "images/Arts/whyrano2.jpg";
 
 
 import "styles/Art.css";
@@ -330,6 +331,18 @@ function Art() {
                 "악당 토끼와 악당 북극곰의 천방지축 와이라노 (Original by Hae-Min Jung / 3D Remaked by Gyeong-Min Lee)"
               }
             />
+          </li>
+          <li>
+                <ArtBoxDefault
+                img={whyrano2}
+                title={"whyrano2"}
+                program={"3ds Max"}
+                length={"2일"}
+                modalImg={whyrano2}
+                  adesc={
+                    "악당 토끼와 악당 북극곰의 천방지축 와이라노 (Original by Hae-Min Jung / 3D Remaked by Gyeong-Min Lee)"
+                  }
+                />
           </li>
           <li>
             <ArtBoxDefault
