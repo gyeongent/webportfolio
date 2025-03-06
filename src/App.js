@@ -20,12 +20,9 @@ import {
 
 // Import SVG Files
 import gyeong_white from "images/gyeong_white.svg";
-import flag_of_world from "images/international.svg";
 import flag_of_south_korea from "images/flag_of_south_korea.svg";
 import arrow_light from "images/arrow_light.svg";
-import discord from "images/discord.svg";
 import instagram from "images/instagram.svg";
-import facebook from "images/facebook.svg";
 import atsign from "images/atsign.svg";
 
 // Import Image Files
@@ -64,13 +61,7 @@ const App = () => {
                 setLang("en");
               }}
             >
-              <img
-                className="Flag_KOR"
-                src={flag_of_world}
-                width="30px"
-                alt="International Flag"
-              />
-              English
+              🌐 English
             </div>
           ) : (
             <div
