@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dae37e49.css",
-    "main.js": "/static/js/main.f2673d01.js",
+    "main.js": "/static/js/main.323ca10d.js",
     "static/media/kirby.png": "/static/media/kirby.03df23e68d37a07e8133.png",
     "static/media/color_palette.png": "/static/media/color_palette.005100f69a1f971ece4c.png",
     "static/media/color_palette_thumb.png": "/static/media/color_palette_thumb.114521edd97ad97c9e89.png",
@@ -15,6 +15,7 @@
     "static/media/missing.png": "/static/media/missing.9636118698311f67aabf.png",
     "static/media/pierrot_ori.png": "/static/media/pierrot_ori.8414a8f5a8b6db7fb532.png",
     "static/media/tretion_1000.png": "/static/media/tretion_1000.7e433a539402dc346713.png",
+    "static/media/stargazer.png": "/static/media/stargazer.023bcfd1396f88ad5c01.png",
     "static/media/honey_moon.png": "/static/media/honey_moon.9e198d58444a070e38fa.png",
     "static/media/trip_of_memory.png": "/static/media/trip_of_memory.a7cda29f1061826bae41.png",
     "static/media/contradict.png": "/static/media/contradict.0d18afc626f40bb501a2.png",
@@ -32,6 +33,7 @@
     "static/media/trip_of_memory_thumb.jpg": "/static/media/trip_of_memory_thumb.80641e9f54bf84626e3d.jpg",
     "static/media/EX_Facebook.png": "/static/media/EX_Facebook.d10c40956e398facfef7.png",
     "static/media/typo_thumb.png": "/static/media/typo_thumb.d0efb6812b1d2c337814.png",
+    "static/media/rollerskates_city.jpg": "/static/media/rollerskates_city.2937dffbcbb67d62eeb5.jpg",
     "static/media/whyrano2.jpg": "/static/media/whyrano2.49c2c487bb94a4aa0065.jpg",
     "static/media/life_saves_card_news.png": "/static/media/life_saves_card_news.4583cacddfb582d9f130.png",
     "static/media/whyrano_front.jpg": "/static/media/whyrano_front.e79787046c202fba475c.jpg",
@@ -43,10 +45,10 @@
     "static/media/arrow_light.svg": "/static/media/arrow_light.7e6503c6f8c6ad0693624e1df57ca613.svg",
     "static/media/atsign.svg": "/static/media/atsign.fa672e6b212e4b0899f17c31d9e4504e.svg",
     "main.dae37e49.css.map": "/static/css/main.dae37e49.css.map",
-    "main.f2673d01.js.map": "/static/js/main.f2673d01.js.map"
+    "main.323ca10d.js.map": "/static/js/main.323ca10d.js.map"
   },
   "entrypoints": [
     "static/css/main.dae37e49.css",
-    "static/js/main.f2673d01.js"
+    "static/js/main.323ca10d.js"
   ]
 }
