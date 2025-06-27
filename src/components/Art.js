@@ -36,7 +36,8 @@ import honey_moon from "images/Arts/honey_moon.png";
 import lose from "images/Arts/10092.png";
 import contradict from "images/Arts/contradict.png";
 import whyrano2 from "images/Arts/whyrano2.jpg";
-
+import rollerskatesCity from "images/Arts/rollerskates_city.jpg";
+import stargazer from "images/Arts/stargazer.png";
 
 import "styles/Art.css";
 
@@ -333,16 +334,16 @@ function Art() {
             />
           </li>
           <li>
-                <ArtBoxDefault
-                img={whyrano2}
-                title={"whyrano2"}
-                program={"3ds Max"}
-                length={"2일"}
-                modalImg={whyrano2}
-                  adesc={
-                    "악당 토끼와 악당 북극곰의 천방지축 와이라노 (Original by Hae-Min Jung / 3D Remaked by Gyeong-Min Lee)"
-                  }
-                />
+            <ArtBoxDefault
+              img={whyrano2}
+              title={"whyrano2"}
+              program={"3ds Max"}
+              length={"2일"}
+              modalImg={whyrano2}
+              adesc={
+                "악당 토끼와 악당 북극곰의 천방지축 와이라노 (Original by Hae-Min Jung / 3D Remaked by Gyeong-Min Lee)"
+              }
+            />
           </li>
           <li>
             <ArtBoxDefault
@@ -439,13 +440,21 @@ function Art() {
               program={"3ds Max"}
               length={"1시간"}
               modalImg={lose}
-              adesc={
-                "전의상실."
-              }
+              adesc={"전의상실."}
             />
           </li>
         </ul>
         <ul>
+          <li>
+            <ArtBoxDefault
+              img={rollerskatesCity}
+              title={"롤러스케이트 시티"}
+              program={"3ds Max"}
+              length={"2일"}
+              modalImg={rollerskatesCity}
+              adesc={""}
+            />
+          </li>
           <li>
             <ArtBoxWide
               img={contradict}
@@ -456,6 +465,16 @@ function Art() {
                 "우리는 평화로운 세상에 태어나 평화롭지만 평화롭지만은 않은 세상에 살면서 점점 무뎌진다. 이 평화로운 세상은 평화롭지 않은 세상을 갈망하고 있는 걸까?"
               }
               modalImg={contradict}
+            />
+          </li>
+          <li>
+            <ArtBoxDefault
+              img={stargazer}
+              title={"Stargazer"}
+              program={"3ds Max"}
+              length={"2일"}
+              modalImg={stargazer}
+              adesc={""}
             />
           </li>
         </ul>
