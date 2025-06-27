@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dae37e49.css",
-    "main.js": "/static/js/main.323ca10d.js",
+    "main.js": "/static/js/main.907c21bc.js",
     "static/media/kirby.png": "/static/media/kirby.03df23e68d37a07e8133.png",
     "static/media/color_palette.png": "/static/media/color_palette.005100f69a1f971ece4c.png",
     "static/media/color_palette_thumb.png": "/static/media/color_palette_thumb.114521edd97ad97c9e89.png",
@@ -23,6 +23,7 @@
     "static/media/missing_thumb.jpg": "/static/media/missing_thumb.71c1a346d1dc9a5e8df0.jpg",
     "static/media/EX_Mockup.png": "/static/media/EX_Mockup.cbb2cec911f28de9f510.png",
     "static/media/waste_effect.jpg": "/static/media/waste_effect.6c8fda0f5ce4b46383e3.jpg",
+    "static/media/life_saves_product.png": "/static/media/life_saves_product.98a18c4b4c4df585df70.png",
     "static/media/distance_of_scent_thumb.jpg": "/static/media/distance_of_scent_thumb.1806c41b6a221124451b.jpg",
     "static/media/kirby_thumb.jpg": "/static/media/kirby_thumb.81b46b7ce92ec1848c74.jpg",
     "static/media/detective_pipe.jpg": "/static/media/detective_pipe.d7678cda279f53e4f955.jpg",
@@ -31,6 +32,7 @@
     "static/media/part_time_ufo_thumb.jpg": "/static/media/part_time_ufo_thumb.de5ac6fe77bd15b731b2.jpg",
     "static/media/pierrot_thumb.jpg": "/static/media/pierrot_thumb.9454b46a931d0a7b5de8.jpg",
     "static/media/trip_of_memory_thumb.jpg": "/static/media/trip_of_memory_thumb.80641e9f54bf84626e3d.jpg",
+    "static/media/gummy_product.png": "/static/media/gummy_product.e53fb1700d0a4ec3e0de.png",
     "static/media/EX_Facebook.png": "/static/media/EX_Facebook.d10c40956e398facfef7.png",
     "static/media/typo_thumb.png": "/static/media/typo_thumb.d0efb6812b1d2c337814.png",
     "static/media/rollerskates_city.jpg": "/static/media/rollerskates_city.2937dffbcbb67d62eeb5.jpg",
@@ -45,10 +47,10 @@
     "static/media/arrow_light.svg": "/static/media/arrow_light.7e6503c6f8c6ad0693624e1df57ca613.svg",
     "static/media/atsign.svg": "/static/media/atsign.fa672e6b212e4b0899f17c31d9e4504e.svg",
     "main.dae37e49.css.map": "/static/css/main.dae37e49.css.map",
-    "main.323ca10d.js.map": "/static/js/main.323ca10d.js.map"
+    "main.907c21bc.js.map": "/static/js/main.907c21bc.js.map"
   },
   "entrypoints": [
     "static/css/main.dae37e49.css",
-    "static/js/main.323ca10d.js"
+    "static/js/main.907c21bc.js"
   ]
 }
