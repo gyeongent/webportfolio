@@ -38,6 +38,9 @@ import contradict from "images/Arts/contradict.png";
 import whyrano2 from "images/Arts/whyrano2.jpg";
 import rollerskatesCity from "images/Arts/rollerskates_city.jpg";
 import stargazer from "images/Arts/stargazer.png";
+import lifesaves_product from "images/Arts/life_saves_product.png";
+import gummy_product from "images/Arts/gummy_product.png";
+import alone_cd from "images/Arts/alone_cd_mockup.png";
 
 import "styles/Art.css";
 

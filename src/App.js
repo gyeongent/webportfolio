@@ -92,6 +92,7 @@ const App = () => {
       </div>
     );
   };
+  // eslint-disable-next-line
   const Resume = () => {
     return (
       <div className="ResumeDefault">
