@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dae37e49.css",
-    "main.js": "/static/js/main.907c21bc.js",
+    "main.js": "/static/js/main.f6eca436.js",
     "static/media/kirby.png": "/static/media/kirby.03df23e68d37a07e8133.png",
     "static/media/color_palette.png": "/static/media/color_palette.005100f69a1f971ece4c.png",
     "static/media/color_palette_thumb.png": "/static/media/color_palette_thumb.114521edd97ad97c9e89.png",
@@ -26,6 +26,7 @@
     "static/media/life_saves_product.png": "/static/media/life_saves_product.98a18c4b4c4df585df70.png",
     "static/media/distance_of_scent_thumb.jpg": "/static/media/distance_of_scent_thumb.1806c41b6a221124451b.jpg",
     "static/media/kirby_thumb.jpg": "/static/media/kirby_thumb.81b46b7ce92ec1848c74.jpg",
+    "static/media/alone_cd_mockup.png": "/static/media/alone_cd_mockup.33e03c44cb407fc9f164.png",
     "static/media/detective_pipe.jpg": "/static/media/detective_pipe.d7678cda279f53e4f955.jpg",
     "static/media/resume.png": "/static/media/resume.47f0f3290df63b61f15c.png",
     "static/media/super_mario_maker.jpg": "/static/media/super_mario_maker.2246ef1150ea0a821a05.jpg",
@@ -47,10 +48,10 @@
     "static/media/arrow_light.svg": "/static/media/arrow_light.7e6503c6f8c6ad0693624e1df57ca613.svg",
     "static/media/atsign.svg": "/static/media/atsign.fa672e6b212e4b0899f17c31d9e4504e.svg",
     "main.dae37e49.css.map": "/static/css/main.dae37e49.css.map",
-    "main.907c21bc.js.map": "/static/js/main.907c21bc.js.map"
+    "main.f6eca436.js.map": "/static/js/main.f6eca436.js.map"
   },
   "entrypoints": [
     "static/css/main.dae37e49.css",
-    "static/js/main.907c21bc.js"
+    "static/js/main.f6eca436.js"
   ]
 }
